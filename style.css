@@ -59,7 +59,7 @@ input, label{
     body{
         background-size: cover;
         background-repeat: no-repeat;
-        max-height: 100vh;
+        height: 100vh;
     }
     .calculate{
         max-width: 300px;
