@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>គណនាបញ្ចុះតម្លៃ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>គណនាបញ្ចុះតម្លៃសម្រាប់អ្នកអត់ចេះ</h1>
+        <form action="#" class="calculate">
+            <div class="fill">
+                <label for="">បញ្ចូលតម្លៃដើម :</label>
+                <input type="text" id="original_price"/> <br />
+            </div>
+          
+            <div class="fill">
+                <label for="">បញ្ចូលភាគរយបញ្ចុះ :</label>
+                <input type="text" id="percentage"/> <br />
+            </div>
+
+            <div class="fill">
+                <button onclick="calculateDiscount()">គណនា</button>
+            </div>
+
+            <p id="discount_price">Dicount Price is: </p>
+        </form>
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
